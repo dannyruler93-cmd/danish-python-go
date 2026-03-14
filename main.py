@@ -38,5 +38,5 @@ basic.show_string("BYE BYE")
 basic.show_string("LOLOLOLOLOLOLOLOLOLOLOL")
 basic.show_string("do some questions")
 basic.show_string("1+1")
-basic.pause(500)
+basic.pause(100)
 1 + 1

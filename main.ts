@@ -38,5 +38,5 @@ basic.showString("BYE BYE")
 basic.showString("LOLOLOLOLOLOLOLOLOLOLOL")
 basic.showString("do some questions")
 basic.showString("1+1")
-basic.pause(500)
+basic.pause(100)
 1 + 1
