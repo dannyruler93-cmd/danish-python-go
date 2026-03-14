@@ -40,3 +40,6 @@ basic.show_string("do some questions")
 basic.show_string("1+1")
 basic.pause(100)
 1 + 1
+basic.show_string("I am Sigma")
+basic.show_icon(IconNames.SMALL_SQUARE)
+basic.show_icon(IconNames.SQUARE)

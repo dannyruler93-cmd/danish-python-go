@@ -40,3 +40,6 @@ basic.showString("do some questions")
 basic.showString("1+1")
 basic.pause(100)
 1 + 1
+basic.showString("I am Sigma")
+basic.showIcon(IconNames.SmallSquare)
+basic.showIcon(IconNames.Square)
