@@ -1,0 +1,42 @@
+basic.show_string("DANISH PYHTON GO")
+basic.show_leds("""
+    # . . . #
+    . # . # .
+    . . # . .
+    . # . # .
+    # . . . #
+    """)
+basic.show_leds("""
+    . . . . #
+    . . . # .
+    # . # . .
+    . # . . .
+    . . . . .
+    """)
+input.button_is_pressed(Button.A)
+basic.show_leds("""
+    # # # # #
+    # # # # #
+    # # # # #
+    # # # # #
+    # # # # #
+    """)
+basic.show_icon(IconNames.SAD)
+basic.show_leds("""
+    . . . . .
+    . # # # .
+    # . . . #
+    . # . # .
+    . . # . .
+    """)
+input.logo_is_pressed()
+record.start_recording(record.BlockingState.BLOCKING)
+record.start_recording(record.BlockingState.BLOCKING)
+record.stop_recording()
+record.play_audio(record.BlockingState.BLOCKING)
+basic.show_string("BYE BYE")
+basic.show_string("LOLOLOLOLOLOLOLOLOLOLOL")
+basic.show_string("do some questions")
+basic.show_string("1+1")
+basic.pause(500)
+1 + 1
